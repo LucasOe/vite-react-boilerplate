@@ -19,7 +19,7 @@ export default function App() {
 				<a href="https://react.dev" target="_blank" rel="noreferrer" className="focus rounded">
 					<img //
 						src={reactLogo}
-						className="animate-slow-spin size-36 p-6 transition-[filter] hover:drop-shadow"
+						className="size-36 animate-slow-spin p-6 transition-[filter] hover:drop-shadow"
 						alt="React logo"
 					/>
 				</a>
