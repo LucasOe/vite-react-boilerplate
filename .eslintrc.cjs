@@ -1,7 +1,7 @@
 /* eslint-env node */
 module.exports = {
 	root: true,
-	env: { browser: true, es2020: true },
+	env: { browser: true, es2020: true, node: true },
 	extends: [
 		"eslint:recommended",
 		"plugin:react/recommended",
@@ -9,7 +9,6 @@ module.exports = {
 		"plugin:@typescript-eslint/recommended-type-checked",
 		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
-		"plugin:tailwindcss/recommended",
 		"prettier",
 	],
 	ignorePatterns: ["dist"],
