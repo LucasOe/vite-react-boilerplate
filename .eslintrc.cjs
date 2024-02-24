@@ -8,6 +8,7 @@ module.exports = {
 		"plugin:react/jsx-runtime",
 		"plugin:@typescript-eslint/recommended-type-checked",
 		"plugin:react-hooks/recommended",
+		"plugin:jsx-a11y/recommended",
 		"plugin:tailwindcss/recommended",
 		"prettier",
 	],
@@ -18,7 +19,7 @@ module.exports = {
 		project: ["./tsconfig.json", "./tsconfig.node.json"],
 		tsconfigRootDir: __dirname,
 	},
-	plugins: ["@typescript-eslint", "react-refresh"],
+	plugins: ["@typescript-eslint", "react-refresh", "jsx-a11y"],
 	rules: {
 		"react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
 	},
